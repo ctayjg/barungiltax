@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>세무 자료실 | 바른길세무회계</title>
+  <meta name="description" content="양정길 세무사가 직접 쓴 양도소득세 · 상속세 · 증여세 · 비거주자 세무칼럼과 처리 사례 모음">
+  <link rel="canonical" href="https://barungiltax.com/board">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="바른길세무회계">
+  <meta property="og:title" content="세무 자료실 | 바른길세무회계">
+  <meta property="og:description" content="양정길 세무사가 직접 쓴 양도소득세 · 상속세 · 증여세 · 비거주자 세무칼럼과 처리 사례 모음">
+  <meta property="og:url" content="https://barungiltax.com/board">
+  <meta property="og:image" content="https://barungiltax.com/assets/og-image.png">
+  <meta property="og:locale" content="ko_KR">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="board">
+  <header class="header" id="header"></header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="label">세무 자료실</p>
+        <h1 class="page-hero__title" id="boardTitle">세무 자료실</h1>
+        <p class="page-hero__desc">양도, 상속, 증여, 비거주자의 세금에 대해 제가 직접 써 온 글과 처리한 사례입니다. 누르면 블로그에서 글 전체를 읽으실 수 있습니다.</p>
+        <ul class="svc__tags board__tags" id="boardTags" hidden></ul>
+      </div>
+    </section>
+
+    <section class="board">
+      <div class="container">
+        <div class="board__bar">
+          <div class="tabs" id="boardTabs" role="tablist" aria-label="자료 분류"></div>
+          <form class="search" id="boardSearchForm" role="search">
+            <label for="boardSearch" class="sr-only">자료 검색</label>
+            <input type="search" id="boardSearch" placeholder="검색어를 입력하세요" autocomplete="off">
+            <button type="submit" aria-label="검색"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+          </form>
+        </div>
+        <p class="board__count" id="boardCount" aria-live="polite"></p>
+        <ul class="post-grid" id="boardList"></ul>
+        <div class="board__more"><button type="button" class="btn btn--line" id="boardMore" hidden>더 보기</button></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer"></footer>
+
+  <script src="js/posts.js"></script>
+  <script src="js/blog.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/board.js"></script>
+</body>
+</html>

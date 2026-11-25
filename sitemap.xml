@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 검색엔진에 알려 주는 홈페이지 페이지 목록. 네이버 서치어드바이저·구글 서치 콘솔에 https://barungiltax.com/sitemap.xml 로 제출 -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://barungiltax.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://barungiltax.com/board</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://barungiltax.com/board?cat=case</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://barungiltax.com/board?cat=transfer</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://barungiltax.com/board?cat=inherit</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://barungiltax.com/board?cat=gift</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://barungiltax.com/board?cat=nonresident</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://barungiltax.com/board?cat=appeal</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+</urlset>
